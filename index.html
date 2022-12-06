@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDePastelería</title>
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style"> 
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style"> <!-- El preload es para cargar algunas cosas de forma rápida -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+       
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                   <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DePastelería</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="./pages/nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="./pages/cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="./pages/tienda.html" class="navegacion__enlace">Tienda</a>
+                    <a href="./pages/contacto.html" class="navegacion__enlace">Contacto</a>
+                    
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de pastelería con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img src="../img/blog1.jpeg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Postres Veganos</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cumque voluptatum similique, temporibus sed molestiae,
+                    officiis, quis culpa eaque officia minima nemo possimus eveniet voluptatem! Voluptates reprehenderit dolor impedit quod?</p>
+                </div>
+                <a href="./pages/entrada.html" class="boton boton--primario">Leer Entrada</a>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>                     
+                        <img src="../img/blog2.jpeg" alt="imagen blog">
+                    </picture>
+
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Deliciosas Recetas con Coco</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cumque voluptatum similique, temporibus sed molestiae,
+                    officiis, quis culpa eaque officia minima nemo possimus eveniet voluptatem! Voluptates reprehenderit dolor impedit quod?</p>
+                </div>
+                <a href="./pages/entrada.html" class="boton boton--primario">Leer Entrada</a>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>    
+                        <img src="./img/blog3.webp" alt="imagen blog">
+                    </picture>
+
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cumque voluptatum similique, temporibus sed molestiae,
+                    officiis, quis culpa eaque officia minima nemo possimus eveniet voluptatem! Voluptates reprehenderit dolor impedit quod?</p>
+                </div>
+                <a href="./pages/entrada.html" class="boton boton--primario">Leer Entrada</a>
+            </article>
+
+        </main>
+            <aside class="sidebar">
+                <h3>Nuestros cursos y talleres</h3>
+
+                <ul class="cursos no-padding">
+                    <li class="diseño-curso">
+                        <h4 class="no-margin">Pastelería Inicial</h4>
+                        <p class="diseño--curso__label">Nivel:
+                            <span class="diseño--curso__info">Principiante</span>
+                        </p>
+                        <p class="diseño--curso__label">Precio:
+                            <span class="diseño--curso__info">A definir</span>
+                        </p>
+
+                        <p class="diseño--curso__label">Cupo:
+                            <span class="diseño--curso__info">40</span> 
+                        </p>
+                        <a href="./pages/pasteleriaInicial.html" class="boton boton--secundario">Más Información</a>
+                    </li>
+                     
+                    <li class="diseño-curso">
+                        <h4 class="no-margin">Pastelería Profesional</h4>
+                        <p class="diseño--curso__label">Nivel:
+                            <span class="diseño--curso__info">Intermedio/Avanzado</span>
+                        </p>
+                        <p class="diseño--curso__label">Precio:
+                            <span class="diseño--curso__info">A definir</span>
+                        </p>
+
+                        <p class="diseño--curso__label">Cupo:
+                            <span class="diseño--curso__info">40</span> 
+                        </p>
+                        <a href="./pages/pasteleriaProfesional.html" class="boton boton--secundario">Más Información</a>
+                    </li>
+
+                    <li class="diseño-curso">
+                        <h4 class="no-margin">Técnicas y Recetas Escenciales Para Postres</h4>
+                        <p class="diseño--curso__label">Nivel:
+                            <span class="diseño--curso__info">Mixto</span>
+                        </p>
+                        <p class="diseño--curso__label">Precio:
+                            <span class="diseño--curso__info">A definir</span>
+                        </p>
+
+                        <p class="diseño--curso__label">Cupo:
+                            <span class="diseño--curso__info">20</span> 
+                        </p>
+                        <a href="./pages/postres.html" class="boton boton--secundario">Más Información</a>
+                    </li>
+
+                    <li class="diseño-curso">
+                        <h4 class="no-margin">Chocolateria Básica</h4>
+                        <p class="diseño--curso__label">Nivel:
+                            <span class="diseño--curso__info">Principiante</span>
+                        </p>
+                        <p class="diseño--curso__label">Precio:
+                            <span class="diseño--curso__info">A definir</span>
+                        </p>
+
+                        <p class="diseño--curso__label">Cupo:
+                            <span class="diseño--curso__info">20</span> 
+                        </p>
+                        <a href="./pages/chocolateriaBasica.html" class="boton boton--secundario">Más Información</a>
+                    </li>
+
+                    <li class="diseño-curso">
+                        <h4 class="no-margin">Pastelería con Chocolate</h4>
+                        <p class="diseño--curso__label">Nivel:
+                            <span class="diseño--curso__info">Intermedio/Avanzado</span>
+                        </p>
+                        <p class="diseño--curso__label">Precio:
+                            <span class="diseño--curso__info">A definir</span>
+                        </p>
+
+                        <p class="diseño--curso__label">Cupo:
+                            <span class="diseño--curso__info">20</span> 
+                        </p>
+                        <a href="./pages/pasteleriaChocolate.html" class="boton boton--secundario">Más Información</a>
+                    </li>
+                </ul>
+            </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                   <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DePastelería</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="./pages/nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="./pages/cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="./pages/tienda.html" class="navegacion__enlace">Tienda</a>
+                    <a href="./pages/contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizer.js"></script>
+</body>
+</html>
