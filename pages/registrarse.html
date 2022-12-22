@@ -35,12 +35,12 @@
     </header>
 
     <main class="contenedor">
-        <h3 class="centrar-texto">Contacto</h3>
+        <h3 class="centrar-texto">Registro de Usuario</h3>
 
-        <div class="contacto-bg"></div>
+        <div class="registro-bg"></div>
 
         <form class="formulario">
-            <h3>Comunicate con Nosotros</h3>
+            <h3>Completa el formulario</h3>
             <div class="campo">
                 <label class="campo__label" for="nombre">Nombre <span class="logo__bold">(*)</span></label>
                 <input class="campo__field" type="text" placeholder="Nombre" id="nombre">
@@ -57,29 +57,28 @@
                 <label class="campo__label" for="email">E-mail <span class="logo__bold">(*)</span></label>
                 <input class="campo__field" type="email" placeholder="E-mail" id="email">
             </div>
-            <span class="bold span--style">Elija el área académica</span>
+            <span class="logo__bold span--style">Las contraseñas deben coincidir</span>
             <div class="campo">
-                <label class="campo__label" for="nombre">Curso <span class="logo__bold">(*)</span></label>
-                <input class="campo__field" type="text" placeholder="Curso " id="curso">
+                <label class="campo__label" for="nombre">Contraseña <span class="logo__bold">(*)</span></label>
+                <input class="campo__field" type="password" placeholder="Contraseña " id="Contraseña">
             </div>
             <div class="campo">
-                <label class="campo__label campo__field--textarea" for="mensaje">Mensaje <span class="logo__bold">(*)</span></label>
-                <textarea class="campo__field" id="mensaje"></textarea>
+                <label class="campo__label" for="nombre">Confirmar Contraseña <span class="logo__bold">(*)</span></label>
+                <input class="campo__field" type="password" placeholder="Contraseña " id="Contraseña">
             </div>
             <div>
                 <span class="logo__bold">(*)</span>
                 <input type="checkbox">
-                <label>Acepto recibir Información</label>
+                <label>He leído y acepto los términos y condiciones</label>
                 <span class="span-color">(*) Campos Obligatorios</span>
             </div>
             
             <div class="campo">
-                <input type="submit" value="Enviar" class="boton boton--primario">
+                <input type="submit" value="Registrarme" class="boton boton--primario">
             </div>
-                
-            
-
-
+            <div class="centrar-texto">
+                <p>¿Ya tienes cuenta? <a class="logo__bold" href="iniciarSesion.html">Ingresar Aquí</a></p>
+            </div>
         </form>
     
     </main>
